@@ -2,6 +2,7 @@
 -- but for all new procedures, functions and packages, I m gonna use new schema BL
 
 -- new schema and grants
+
 create user BL identified by BL;
 grant connect to BL;
 grant all privileges to BL;
@@ -12,6 +13,7 @@ grant EXECUTE_CATALOG_ROLE to BL;
 grant select on dba_tablespaces to BL;
 
 -- grants to HR	
+
 grant select on dba_tablespaces to HR;
 grant EXECUTE on bl.alter_tablespace to HR;
 grant EXECUTE on bl.Grant_dml_priv to HR;
