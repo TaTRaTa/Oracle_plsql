@@ -1,5 +1,5 @@
--- by default I m gonna use HR schema
--- but for all new procedures, functions and packages, I m gonna use new schema BL
+-- by default I am going to use HR schema
+-- but for all new procedures, functions and packages, I am going to use new schema BL
 
 -- new schema and grants
 
